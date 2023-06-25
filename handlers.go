@@ -21,3 +21,7 @@ func renderTemplate(w http.ResponseWriter, tmpl string) {
 	}
 	t.Execute(w, nil)
 }
+
+func createtemplateCache() (map[string]*template.Template, error) {
+
+}
